@@ -4,7 +4,7 @@
 }
 
 body {
-    height: 10000px;
+
 }
 
 html {
@@ -20,7 +20,7 @@ html {
     border-bottom: .1px solid rgba(0, 0, 0, 0.062);
 }
 .carousel-inner{
-    height: 70vh;
+    height: 50vh;
     background-color: black;
 
     .carousel-item{
@@ -43,5 +43,42 @@ html {
         object-fit: cover;
         height: 100%;
         width: 100%;
+    }
+}
+.dropdown-menu{
+    border: none;
+    transition: .5s all;
+
+    .dropdown-item{
+
+        &:hover{
+            font-weight: bold;
+        }
+    }
+}
+.container{
+
+    .row{
+
+        div{
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+}
+
+.card{
+    .card-img-top{
+        object-position: center;
+        object-fit: cover;
+
+        &:hover{
+            opacity: 0.5;
+        }
     }
 }
