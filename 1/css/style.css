@@ -1,0 +1,51 @@
+/* line 1, ../scss/style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 6, ../scss/style.scss */
+body {
+  height: 10000px; }
+
+/* line 10, ../scss/style.scss */
+html {
+  scroll-behavior: smooth; }
+
+/* line 14, ../scss/style.scss */
+.bg-test {
+  background: rgba(34, 34, 34, 0.2); }
+
+/* line 18, ../scss/style.scss */
+.bg-white {
+  background: white;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.062); }
+
+/* line 22, ../scss/style.scss */
+.carousel-inner {
+  height: 70vh;
+  background-color: black; }
+  /* line 26, ../scss/style.scss */
+  .carousel-inner .carousel-item {
+    height: 100%; }
+    /* line 29, ../scss/style.scss */
+    .carousel-inner .carousel-item img {
+      height: 100%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      -o-object-position: center;
+         object-position: center; }
+
+/* line 37, ../scss/style.scss */
+.he-1 {
+  height: 100%;
+  width: 100%; }
+  /* line 41, ../scss/style.scss */
+  .he-1 .ck {
+    -o-object-position: center;
+       object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

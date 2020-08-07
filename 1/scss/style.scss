@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 10000px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-test {
+    background: rgba(34, 34, 34, 0.2);
+}
+
+.bg-white {
+    background: white;
+    border-bottom: .1px solid rgba(0, 0, 0, 0.062);
+}
+.carousel-inner{
+    height: 70vh;
+    background-color: black;
+
+    .carousel-item{
+        height: 100%;
+
+        img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+.he-1{
+    height: 100%;
+    width: 100%;
+
+    .ck{
+        object-position: center;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
