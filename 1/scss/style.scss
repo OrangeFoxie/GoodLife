@@ -3,9 +3,7 @@
     padding: 0;
 }
 
-body {
-
-}
+body {}
 
 html {
     scroll-behavior: smooth;
@@ -19,14 +17,15 @@ html {
     background: white;
     border-bottom: .1px solid rgba(0, 0, 0, 0.062);
 }
-.carousel-inner{
+
+.carousel-inner {
     height: 50vh;
     background-color: black;
 
-    .carousel-item{
+    .carousel-item {
         height: 100%;
 
-        img{
+        img {
             height: 100%;
             object-fit: cover;
             object-position: center;
@@ -34,35 +33,46 @@ html {
     }
 }
 
-.he-1{
+.he-1 {
     height: 100%;
     width: 100%;
 
-    .ck{
+    .ck {
         object-position: center;
         object-fit: cover;
         height: 100%;
         width: 100%;
     }
 }
-.dropdown-menu{
+
+.no-select {
+    user-select: none;
+}
+
+
+
+
+// Group here
+
+.dropdown-menu {
     border: none;
     transition: .5s all;
 
-    .dropdown-item{
+    .dropdown-item {
 
-        &:hover{
+        &:hover {
             font-weight: bold;
         }
     }
 }
-.container{
 
-    .row{
+.container {
 
-        div{
+    .row {
 
-            img{
+        div {
+
+            img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
@@ -72,13 +82,86 @@ html {
     }
 }
 
-.card{
-    .card-img-top{
+.card {
+    .card-img-top {
         object-position: center;
         object-fit: cover;
 
-        &:hover{
+        &:hover {
             opacity: 0.5;
+        }
+    }
+
+    .card-body {
+
+        .card-link {
+            color: red;
+        }
+    }
+}
+
+.container {
+
+    .carousel {
+        .carousel-inner {
+            height: 70vh;
+            background: rgba(0, 0, 0, 0.301);
+
+            .container {
+                height: 95%;
+                width: 50vh;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    object-position: center;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// test certificate carousel
+.container {
+
+    .swiper-container {
+        width: 100%;
+        height: 400px;
+
+        .swiper-wrapper {
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+                a{
+                    height: 400px;
+
+                    img{
+                        height: 100%;
+                    }
+                }
+                /*width:90%;*/
+
+                img {
+                    max-height: 100%
+                }
+            }
         }
     }
 }

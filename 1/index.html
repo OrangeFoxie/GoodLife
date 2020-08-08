@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/style.css.map">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css'>
+
     <title>GoodLife</title>
 </head>
 
@@ -36,9 +38,9 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
                     </li>
-                    
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Giới thiệu</a>
+                        <a class="nav-link" href="#gioithieu">Giới thiệu</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -46,10 +48,12 @@
                             Sản phẩm
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Vi sinh GL</a>
-                            <a class="dropdown-item" href="#">EM Good Life</a>
-                            <a class="dropdown-item" href="#">Phân hữu vi sinh Gà</a>
-                            <a class="dropdown-item" href="#">Phân hữu cơ sinh học</a>
+                            <a class="dropdown-item" href="#sanpham">Vi sinh GL</a>
+                            <a class="dropdown-item" href="#sanpham">EM Good Life</a>
+                            <a class="dropdown-item" href="#sanpham">Phân hữu vi sinh Gà</a>
+                            <a class="dropdown-item" href="#sanpham">Phân hữu cơ sinh học</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#chungnhan">Chứng nhận sản phẩm</a>
                         </div>
                     </li>
 
@@ -96,7 +100,7 @@
         </div>
     </div>
 
-    <div class="container pb-5">
+    <div class="container pb-5" id="gioithieu">
         <hr>
     </div>
 
@@ -120,7 +124,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container pb-5">
         <hr>
     </div>
@@ -128,7 +132,7 @@
     <!-- cam ket -->
     <div class="container">
         <div class="row">
-            <h1 class="text-center mx-auto my-auto">Cam ket</h1>
+            <h1 class="text-center mx-auto my-auto pb-3">Cam kết chất lượng</h1>
         </div>
         <div class="row mt-3">
             <div class="col-lg-4 col-md-4 col-sm-12 he-1">
@@ -143,15 +147,15 @@
         </div>
     </div>
 
-    <div class="container pb-5 mt-5">
+    <div class="container pb-5 mt-5" id="sanpham">
         <hr>
     </div>
 
     <!-- Product -->
     <div class="container">
         <div class="row">
-            <h2 class="mb-4 mx-auto">
-                Sản phẩm chất lượng
+            <h2 class="mb-4 mx-auto pb-4 text-uppercase">
+                Sản phẩm good life
             </h2>
         </div>
         <div class="row">
@@ -159,11 +163,14 @@
             <div class="col-lg-3 col-sm-9 mx-auto">
                 <div class="card border mx-auto">
                     <img class="card-img-top" src="./images/pro1.jpg" alt="Card image cap">
-                    <hr>
                     <div class="card-body">
+                        <div class="container text-center">
+                            <a href="#" class="card-link">Dung dịch hữu cơ</a>
+                        </div>
+                        <h5 class="card-title text-center">Vi sinh Good Life</h5>
                         <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <div class="text-center">
-                            <button type="button" class="btn btn-info container-fluid">Chi tiết</button>
+                            <button type="button" class="btn btn-info container-fluid" aria-pressed="true">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -173,11 +180,14 @@
             <div class="col-lg-3 col-sm-9 mx-auto">
                 <div class="card border mx-auto">
                     <img class="card-img-top" src="./images/pro2.jpg" alt="Card image cap">
-                    <hr>
                     <div class="card-body">
+                        <div class="container text-center">
+                            <a href="#" class="card-link">Dung dịch hữu cơ</a>
+                        </div>
+                        <h5 class="card-title text-center">EM Good Life</h5>
                         <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <div class="text-center">
-                            <button type="button" class="btn btn-info container-fluid">Chi tiết</button>
+                            <button type="button" class="btn btn-info container-fluid" aria-pressed="true">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -187,11 +197,15 @@
             <div class="col-lg-3 col-sm-9 mx-auto">
                 <div class="card border mx-auto">
                     <img class="card-img-top" src="./images/pro3.png" alt="Card image cap">
-                    <hr>
+
                     <div class="card-body">
+                        <div class="container text-center">
+                            <a href="#" class="card-link">Phân hữu cơ</a>
+                        </div>
+                        <h5 class="card-title text-center">Phân hữu cơ gà GL</h5>
                         <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <div class="text-center">
-                            <button type="button" class="btn btn-info container-fluid">Chi tiết</button>
+                            <button type="button" class="btn btn-info container-fluid" aria-pressed="true">Chi tiết</button>
                         </div>
                     </div>
                 </div>
@@ -201,33 +215,67 @@
             <div class="col-lg-3 col-sm-9 mx-auto">
                 <div class="card border mx-auto">
                     <img class="card-img-top" src="./images/pro4.png" alt="Card image cap">
-                    <hr>
                     <div class="card-body">
+                        <div class="container text-center">
+                            <a href="#" class="card-link">Phân hữu cơ</a>
+                        </div>
+                        <h5 class="card-title text-center">Phân hữu cơ vi sinh GL</h5>
                         <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <div class="text-center">
-                            <button type="button" class="btn btn-info container-fluid">Chi tiết</button>
+                            <button type="button" class="btn btn-info container-fluid" aria-pressed="true">Chi tiết</button>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
+    </div>
 
+    <div class="container pb-5 mt-5" id="chungnhan">
+        <hr>
     </div>
 
 
+    <!-- Certificates -->
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <h1 class="text-center mx-auto my-auto pb-5">Chứng nhận chất lượng</h1>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="./images/c1.png"/></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/c2.png"/></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/c3.png" /></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/c4.jpg" /></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/c5.jpg" /></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/c6.jpg" /></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./images/c7.jpg" /></a></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
 
 
+    <div class="container pb-5 mt-5">
+        <hr>
+    </div>
 
 
+    <!-- Contact -->
 
 
+    <!-- Certificates -->
+    <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js'></script>
+    <script src="./js/certificate_carousel.js"></script>
+    <!-- Font awsome - boostrap Jquery -->
     <script src="https://kit.fontawesome.com/3712501a3a.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
