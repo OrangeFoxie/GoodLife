@@ -125,11 +125,11 @@ html {
 
 
 // test certificate carousel
-.container {
-
+.certificates {
+    height: 60vh;
     .swiper-container {
         width: 100%;
-        height: 400px;
+        height: 50vh;
 
         .swiper-wrapper {
             .swiper-slide {
@@ -150,7 +150,7 @@ html {
                 -webkit-align-items: center;
                 align-items: center;
                 a{
-                    height: 400px;
+                    height: 100%;
 
                     img{
                         height: 100%;
@@ -162,6 +162,9 @@ html {
                     max-height: 100%
                 }
             }
+        }
+        .swiper-pagination{
+            z-index: 5;
         }
     }
 }
