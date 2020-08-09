@@ -93,14 +93,14 @@ html {
 .card .card-body .card-link {
   color: red; }
 
-/* line 144, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 .certificates {
   height: 60vh; }
-  /* line 147, ../scss/style.scss */
+  /* line 123, ../scss/style.scss */
   .certificates .swiper-container {
     width: 100%;
     height: 50vh; }
-    /* line 152, ../scss/style.scss */
+    /* line 128, ../scss/style.scss */
     .certificates .swiper-container .swiper-wrapper .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -116,43 +116,43 @@ html {
       -ms-flex-align: center;
       align-items: center;
       /*width:90%;*/ }
-      /* line 170, ../scss/style.scss */
+      /* line 146, ../scss/style.scss */
       .certificates .swiper-container .swiper-wrapper .swiper-slide a {
         height: 100%; }
-        /* line 173, ../scss/style.scss */
+        /* line 149, ../scss/style.scss */
         .certificates .swiper-container .swiper-wrapper .swiper-slide a img {
           height: 100%; }
-      /* line 180, ../scss/style.scss */
+      /* line 156, ../scss/style.scss */
       .certificates .swiper-container .swiper-wrapper .swiper-slide img {
         max-height: 100%; }
-    /* line 186, ../scss/style.scss */
+    /* line 162, ../scss/style.scss */
     .certificates .swiper-container .swiper-pagination {
       z-index: 5; }
 
-/* line 196, ../scss/style.scss */
+/* line 172, ../scss/style.scss */
 .modal .modal-content .modal-body {
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat; }
-  /* line 202, ../scss/style.scss */
+  /* line 178, ../scss/style.scss */
   .modal .modal-content .modal-body img {
     width: 100%;
     height: 100%; }
 
-/* line 217, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item img {
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: center;
      object-position: center; }
-/* line 224, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item .carousel-caption h5,
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item .carousel-caption p {
   text-shadow: 2px 5px 3px #000000; }
 
-/* line 240, ../scss/style.scss */
-Contact .lienhe .bodylh .ggmap .container-fluid iframe {
+/* line 217, ../scss/style.scss */
+.Contact .lienhe .bodylh .ggmap .container-fluid iframe {
   border: 0; }
 
 /*# sourceMappingURL=style.css.map */

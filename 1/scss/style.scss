@@ -116,30 +116,6 @@ html {
     }
 }
 
-// .container {
-
-//     .carousel {
-//         .carousel-inner {
-//             height: 70vh;
-//             background: rgba(0, 0, 0, 0.301);
-
-//             .container {
-//                 height: 95%;
-//                 width: 50vh;
-
-//                 img {
-//                     width: 100%;
-//                     object-fit: cover;
-//                     object-position: center;
-//                 }
-//             }
-//         }
-//     }
-// }
-
-
-
-
 //  certificate carousel
 .certificates {
     height: 60vh;
@@ -233,14 +209,16 @@ html {
     }
 }
 
-Contact .lienhe {
-    .bodylh {
-        .ggmap {
-            .container-fluid {
-                iframe {
-                    border: 0;
+.Contact{
+    .lienhe {
+        .bodylh {
+            .ggmap {
+                .container-fluid {
+                    iframe {
+                        border: 0;
+                    }
                 }
             }
         }
-    }
+    }    
 }
