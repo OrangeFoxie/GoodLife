@@ -9,19 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.slider {
-    .carousel {
-        .carousel-inner {
-            .carousel-item {
-                img {
-                    object-fit: cover;
-                    object-position: bottom;
-                }
-            }
-        }
-    }
-}
-
 .contact {
     z-index: initial;
 }
@@ -70,6 +57,18 @@ html {
 
 
 // Group here
+.slider {
+    .carousel {
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    object-fit: cover;
+                    object-position: bottom;
+                }
+            }
+        }
+    }
+}
 
 .dropdown-menu {
     border: none;

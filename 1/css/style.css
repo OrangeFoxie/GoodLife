@@ -7,34 +7,27 @@
 html {
   scroll-behavior: smooth; }
 
-/* line 16, ../scss/style.scss */
-.slider .carousel .carousel-inner .carousel-item img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: bottom;
-     object-position: bottom; }
-
-/* line 25, ../scss/style.scss */
+/* line 12, ../scss/style.scss */
 .contact {
   z-index: initial; }
 
-/* line 29, ../scss/style.scss */
+/* line 16, ../scss/style.scss */
 .bg-test {
   background: rgba(34, 34, 34, 0.2); }
 
-/* line 33, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 .bg-white {
   background: white;
   border-bottom: 0.1px solid rgba(0, 0, 0, 0.062); }
 
-/* line 38, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 .carousel-inner {
   height: 50vh;
   background-color: black; }
-  /* line 42, ../scss/style.scss */
+  /* line 29, ../scss/style.scss */
   .carousel-inner .carousel-item {
     height: 100%; }
-    /* line 45, ../scss/style.scss */
+    /* line 32, ../scss/style.scss */
     .carousel-inner .carousel-item img {
       height: 100%;
       -o-object-fit: cover;
@@ -42,11 +35,11 @@ html {
       -o-object-position: center;
          object-position: center; }
 
-/* line 53, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 .he-1 {
   height: 100%;
   width: 100%; }
-  /* line 57, ../scss/style.scss */
+  /* line 44, ../scss/style.scss */
   .he-1 .ck {
     -o-object-position: center;
        object-position: center;
@@ -55,23 +48,30 @@ html {
     height: 100%;
     width: 100%; }
 
-/* line 65, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .no-select {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
 
-/* line 74, ../scss/style.scss */
+/* line 64, ../scss/style.scss */
+.slider .carousel .carousel-inner .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom; }
+
+/* line 73, ../scss/style.scss */
 .dropdown-menu {
   border: none;
   -webkit-transition: .5s all;
   transition: .5s all; }
-  /* line 80, ../scss/style.scss */
+  /* line 79, ../scss/style.scss */
   .dropdown-menu .dropdown-item:hover {
     font-weight: bold; }
 
-/* line 92, ../scss/style.scss */
+/* line 91, ../scss/style.scss */
 .container .row div img {
   width: 100%;
   height: 100%;
@@ -80,27 +80,27 @@ html {
   -o-object-position: center;
      object-position: center; }
 
-/* line 103, ../scss/style.scss */
+/* line 102, ../scss/style.scss */
 .card .card-img-top {
   -o-object-position: center;
      object-position: center;
   -o-object-fit: cover;
      object-fit: cover; }
-  /* line 107, ../scss/style.scss */
+  /* line 106, ../scss/style.scss */
   .card .card-img-top:hover {
     opacity: 0.5; }
-/* line 114, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 .card .card-body .card-link {
   color: red; }
 
-/* line 145, ../scss/style.scss */
+/* line 144, ../scss/style.scss */
 .certificates {
   height: 60vh; }
-  /* line 148, ../scss/style.scss */
+  /* line 147, ../scss/style.scss */
   .certificates .swiper-container {
     width: 100%;
     height: 50vh; }
-    /* line 153, ../scss/style.scss */
+    /* line 152, ../scss/style.scss */
     .certificates .swiper-container .swiper-wrapper .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -116,42 +116,42 @@ html {
       -ms-flex-align: center;
       align-items: center;
       /*width:90%;*/ }
-      /* line 171, ../scss/style.scss */
+      /* line 170, ../scss/style.scss */
       .certificates .swiper-container .swiper-wrapper .swiper-slide a {
         height: 100%; }
-        /* line 174, ../scss/style.scss */
+        /* line 173, ../scss/style.scss */
         .certificates .swiper-container .swiper-wrapper .swiper-slide a img {
           height: 100%; }
-      /* line 181, ../scss/style.scss */
+      /* line 180, ../scss/style.scss */
       .certificates .swiper-container .swiper-wrapper .swiper-slide img {
         max-height: 100%; }
-    /* line 187, ../scss/style.scss */
+    /* line 186, ../scss/style.scss */
     .certificates .swiper-container .swiper-pagination {
       z-index: 5; }
 
-/* line 197, ../scss/style.scss */
+/* line 196, ../scss/style.scss */
 .modal .modal-content .modal-body {
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat; }
-  /* line 203, ../scss/style.scss */
+  /* line 202, ../scss/style.scss */
   .modal .modal-content .modal-body img {
     width: 100%;
     height: 100%; }
 
-/* line 218, ../scss/style.scss */
+/* line 217, ../scss/style.scss */
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item img {
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: center;
      object-position: center; }
-/* line 225, ../scss/style.scss */
+/* line 224, ../scss/style.scss */
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item .carousel-caption h5,
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item .carousel-caption p {
   text-shadow: 2px 5px 3px #000000; }
 
-/* line 241, ../scss/style.scss */
+/* line 240, ../scss/style.scss */
 Contact .lienhe .bodylh .ggmap .container-fluid iframe {
   border: 0; }
 
