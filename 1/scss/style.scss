@@ -8,6 +8,9 @@ body {}
 html {
     scroll-behavior: smooth;
 }
+.contact{
+    z-index: initial;
+}
 
 .bg-test {
     background: rgba(34, 34, 34, 0.2);
@@ -100,31 +103,31 @@ html {
     }
 }
 
-.container {
+// .container {
 
-    .carousel {
-        .carousel-inner {
-            height: 70vh;
-            background: rgba(0, 0, 0, 0.301);
+//     .carousel {
+//         .carousel-inner {
+//             height: 70vh;
+//             background: rgba(0, 0, 0, 0.301);
 
-            .container {
-                height: 95%;
-                width: 50vh;
+//             .container {
+//                 height: 95%;
+//                 width: 50vh;
 
-                img {
-                    width: 100%;
-                    object-fit: cover;
-                    object-position: center;
-                }
-            }
-        }
-    }
-}
-
-
+//                 img {
+//                     width: 100%;
+//                     object-fit: cover;
+//                     object-position: center;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
-// test certificate carousel
+
+
+//  certificate carousel
 .certificates {
     height: 60vh;
     .swiper-container {
@@ -165,6 +168,23 @@ html {
         }
         .swiper-pagination{
             z-index: 5;
+        }
+    }
+}
+
+// Modal
+// true style modal
+.modal{
+    .modal-content{
+        .modal-body{
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            img{
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }

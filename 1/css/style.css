@@ -7,23 +7,27 @@
 html {
   scroll-behavior: smooth; }
 
-/* line 12, ../scss/style.scss */
+/* line 11, ../scss/style.scss */
+.contact {
+  z-index: initial; }
+
+/* line 15, ../scss/style.scss */
 .bg-test {
   background: rgba(34, 34, 34, 0.2); }
 
-/* line 16, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
 .bg-white {
   background: white;
   border-bottom: 0.1px solid rgba(0, 0, 0, 0.062); }
 
-/* line 21, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 .carousel-inner {
   height: 50vh;
   background-color: black; }
-  /* line 25, ../scss/style.scss */
+  /* line 28, ../scss/style.scss */
   .carousel-inner .carousel-item {
     height: 100%; }
-    /* line 28, ../scss/style.scss */
+    /* line 31, ../scss/style.scss */
     .carousel-inner .carousel-item img {
       height: 100%;
       -o-object-fit: cover;
@@ -31,11 +35,11 @@ html {
       -o-object-position: center;
          object-position: center; }
 
-/* line 36, ../scss/style.scss */
+/* line 39, ../scss/style.scss */
 .he-1 {
   height: 100%;
   width: 100%; }
-  /* line 40, ../scss/style.scss */
+  /* line 43, ../scss/style.scss */
   .he-1 .ck {
     -o-object-position: center;
        object-position: center;
@@ -44,23 +48,23 @@ html {
     height: 100%;
     width: 100%; }
 
-/* line 48, ../scss/style.scss */
+/* line 51, ../scss/style.scss */
 .no-select {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
 
-/* line 57, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 .dropdown-menu {
   border: none;
   -webkit-transition: .5s all;
   transition: .5s all; }
-  /* line 63, ../scss/style.scss */
+  /* line 66, ../scss/style.scss */
   .dropdown-menu .dropdown-item:hover {
     font-weight: bold; }
 
-/* line 75, ../scss/style.scss */
+/* line 78, ../scss/style.scss */
 .container .row div img {
   width: 100%;
   height: 100%;
@@ -69,43 +73,27 @@ html {
   -o-object-position: center;
      object-position: center; }
 
-/* line 86, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 .card .card-img-top {
   -o-object-position: center;
      object-position: center;
   -o-object-fit: cover;
      object-fit: cover; }
-  /* line 90, ../scss/style.scss */
+  /* line 93, ../scss/style.scss */
   .card .card-img-top:hover {
     opacity: 0.5; }
-/* line 97, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 .card .card-body .card-link {
   color: red; }
 
-/* line 106, ../scss/style.scss */
-.container .carousel .carousel-inner {
-  height: 70vh;
-  background: rgba(0, 0, 0, 0.301); }
-  /* line 110, ../scss/style.scss */
-  .container .carousel .carousel-inner .container {
-    height: 95%;
-    width: 50vh; }
-    /* line 114, ../scss/style.scss */
-    .container .carousel .carousel-inner .container img {
-      width: 100%;
-      -o-object-fit: cover;
-         object-fit: cover;
-      -o-object-position: center;
-         object-position: center; }
-
-/* line 128, ../scss/style.scss */
+/* line 131, ../scss/style.scss */
 .certificates {
   height: 60vh; }
-  /* line 130, ../scss/style.scss */
+  /* line 133, ../scss/style.scss */
   .certificates .swiper-container {
     width: 100%;
     height: 50vh; }
-    /* line 135, ../scss/style.scss */
+    /* line 138, ../scss/style.scss */
     .certificates .swiper-container .swiper-wrapper .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -121,17 +109,28 @@ html {
       -ms-flex-align: center;
       align-items: center;
       /*width:90%;*/ }
-      /* line 152, ../scss/style.scss */
+      /* line 155, ../scss/style.scss */
       .certificates .swiper-container .swiper-wrapper .swiper-slide a {
         height: 100%; }
-        /* line 155, ../scss/style.scss */
+        /* line 158, ../scss/style.scss */
         .certificates .swiper-container .swiper-wrapper .swiper-slide a img {
           height: 100%; }
-      /* line 161, ../scss/style.scss */
+      /* line 164, ../scss/style.scss */
       .certificates .swiper-container .swiper-wrapper .swiper-slide img {
         max-height: 100%; }
-    /* line 166, ../scss/style.scss */
+    /* line 169, ../scss/style.scss */
     .certificates .swiper-container .swiper-pagination {
       z-index: 5; }
+
+/* line 179, ../scss/style.scss */
+.modal .modal-content .modal-body {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat; }
+  /* line 184, ../scss/style.scss */
+  .modal .modal-content .modal-body img {
+    width: 100%;
+    height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
