@@ -188,3 +188,21 @@ html {
         }
     }
 }
+
+// factory tong quan
+.factory{
+    .row{
+        div{
+            #carouselExampleControls{
+                .carousel-inner{
+                    .carousel-item{
+                        img{
+                            object-fit: contain;
+                            object-position: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
