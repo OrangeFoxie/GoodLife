@@ -1,33 +1,57 @@
-/* line 1, ../scss/style.scss */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,800&display=swap");
+/* line 4, ../scss/style.scss */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
 
-/* line 8, ../scss/style.scss */
+/* line 10, ../scss/style.scss */
+body {
+  font-size: 20px; }
+
+/* line 14, ../scss/style.scss */
 html {
   scroll-behavior: smooth; }
 
-/* line 12, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
+.font-roboto {
+  font-family: 'Roboto', sans-serif; }
+
+/* line 22, ../scss/style.scss */
+.font-opensan {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 26, ../scss/style.scss */
+.fs-50 {
+  font-size: 50px; }
+
+/* line 29, ../scss/style.scss */
+.fs-60 {
+  font-size: 60px; }
+
+/* line 32, ../scss/style.scss */
 .contact {
   z-index: initial; }
 
-/* line 16, ../scss/style.scss */
+/* line 36, ../scss/style.scss */
 .bg-test {
   background: rgba(34, 34, 34, 0.2); }
 
-/* line 20, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 .bg-white {
   background: white;
   border-bottom: 0.1px solid rgba(0, 0, 0, 0.062); }
 
-/* line 25, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
 .carousel-inner {
   height: 50vh;
   background-color: black; }
-  /* line 29, ../scss/style.scss */
+  /* line 49, ../scss/style.scss */
   .carousel-inner .carousel-item {
     height: 100%; }
-    /* line 32, ../scss/style.scss */
+    /* line 52, ../scss/style.scss */
     .carousel-inner .carousel-item img {
       height: 100%;
       -o-object-fit: cover;
@@ -35,11 +59,11 @@ html {
       -o-object-position: center;
          object-position: center; }
 
-/* line 40, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 .he-1 {
   height: 100%;
   width: 100%; }
-  /* line 44, ../scss/style.scss */
+  /* line 64, ../scss/style.scss */
   .he-1 .ck {
     -o-object-position: center;
        object-position: center;
@@ -48,31 +72,31 @@ html {
     height: 100%;
     width: 100%; }
 
-/* line 52, ../scss/style.scss */
+/* line 72, ../scss/style.scss */
 .no-select {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
 
-/* line 64, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .slider .carousel .carousel-inner .carousel-item img {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: bottom;
      object-position: bottom; }
 
-/* line 73, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 .dropdown-menu {
   border: none;
   -webkit-transition: .5s all;
   transition: .5s all; }
-  /* line 79, ../scss/style.scss */
+  /* line 107, ../scss/style.scss */
   .dropdown-menu .dropdown-item:hover {
     font-weight: bold; }
 
-/* line 91, ../scss/style.scss */
-.container .row div img {
+/* line 119, ../scss/style.scss */
+.gioithieu .row div img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -80,27 +104,27 @@ html {
   -o-object-position: center;
      object-position: center; }
 
-/* line 102, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 .card .card-img-top {
   -o-object-position: center;
      object-position: center;
   -o-object-fit: cover;
      object-fit: cover; }
-  /* line 106, ../scss/style.scss */
+  /* line 134, ../scss/style.scss */
   .card .card-img-top:hover {
     opacity: 0.5; }
-/* line 113, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .card .card-body .card-link {
   color: red; }
 
-/* line 120, ../scss/style.scss */
+/* line 148, ../scss/style.scss */
 .certificates {
   height: 60vh; }
-  /* line 123, ../scss/style.scss */
+  /* line 151, ../scss/style.scss */
   .certificates .swiper-container {
     width: 100%;
     height: 50vh; }
-    /* line 128, ../scss/style.scss */
+    /* line 156, ../scss/style.scss */
     .certificates .swiper-container .swiper-wrapper .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -116,46 +140,46 @@ html {
       -ms-flex-align: center;
       align-items: center;
       /*width:90%;*/ }
-      /* line 146, ../scss/style.scss */
+      /* line 174, ../scss/style.scss */
       .certificates .swiper-container .swiper-wrapper .swiper-slide a {
         height: 100%; }
-        /* line 149, ../scss/style.scss */
+        /* line 177, ../scss/style.scss */
         .certificates .swiper-container .swiper-wrapper .swiper-slide a img {
           height: 100%; }
-      /* line 156, ../scss/style.scss */
+      /* line 184, ../scss/style.scss */
       .certificates .swiper-container .swiper-wrapper .swiper-slide img {
         max-height: 100%; }
-    /* line 162, ../scss/style.scss */
+    /* line 190, ../scss/style.scss */
     .certificates .swiper-container .swiper-pagination {
       z-index: 5; }
 
-/* line 172, ../scss/style.scss */
+/* line 200, ../scss/style.scss */
 .modal .modal-content .modal-body {
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat; }
-  /* line 178, ../scss/style.scss */
+  /* line 206, ../scss/style.scss */
   .modal .modal-content .modal-body img {
     width: 100%;
     height: 100%; }
 
-/* line 193, ../scss/style.scss */
+/* line 221, ../scss/style.scss */
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item img {
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: center;
      object-position: center; }
-/* line 200, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item .carousel-caption h5,
 .factory .row div #carouselExampleControls .carousel-inner .carousel-item .carousel-caption p {
   text-shadow: 2px 5px 3px #000000; }
 
-/* line 217, ../scss/style.scss */
+/* line 245, ../scss/style.scss */
 .Contact .lienhe .bodylh .ggmap .container-fluid iframe {
   border: 0; }
 
-/* line 226, ../scss/style.scss */
+/* line 254, ../scss/style.scss */
 i {
   font-size: 25px; }
 
