@@ -2,4 +2,20 @@
 * {
   font-family: Arial, Helvetica, sans-serif; }
 
+/* line 12, ../scss/style.scss */
+.carousel .carousel-inner .carousel-item {
+  height: 50vh; }
+  /* line 14, ../scss/style.scss */
+  .carousel .carousel-inner .carousel-item img {
+    -o-object-position: center;
+       object-position: center; }
+
+/* line 21, ../scss/style.scss */
+a {
+  text-decoration: none; }
+
+/* line 24, ../scss/style.scss */
+.text-decoration-none {
+  text-decoration: none !important; }
+
 /*# sourceMappingURL=style.css.map */

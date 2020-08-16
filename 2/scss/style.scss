@@ -1,3 +1,26 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+
+}
+html{}
+
+.carousel{
+    .carousel-inner{
+        .carousel-item{
+            height: 50vh;
+            img{
+                object-position: center;
+            }
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+}
+.text-decoration-none{
+    text-decoration: none !important;
+}
