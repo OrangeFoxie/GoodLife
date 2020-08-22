@@ -1,21 +1,48 @@
-/* line 1, ../scss/style.scss */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap");
+/* line 3, ../scss/style.scss */
 * {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: 'Noto Sans JP', sans-serif;
+  scroll-behavior: smooth; }
 
-/* line 12, ../scss/style.scss */
+/* line 15, ../scss/style.scss */
 .carousel .carousel-inner .carousel-item {
   height: 50vh; }
-  /* line 14, ../scss/style.scss */
+  /* line 17, ../scss/style.scss */
   .carousel .carousel-inner .carousel-item img {
     -o-object-position: center;
        object-position: center; }
 
-/* line 21, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 a {
   text-decoration: none; }
 
-/* line 24, ../scss/style.scss */
+/* line 27, ../scss/style.scss */
 .text-decoration-none {
   text-decoration: none !important; }
+
+/* line 30, ../scss/style.scss */
+.n1 {
+  display: none; }
+
+/* line 34, ../scss/style.scss */
+.f-25 {
+  font-size: 25px; }
+
+/* line 37, ../scss/style.scss */
+.f-15 {
+  font-size: 15px; }
+
+/* line 41, ../scss/style.scss */
+.bg-nav-light {
+  background-color: #179404; }
+
+/* line 45, ../scss/style.scss */
+p {
+  font-size: 13px; }
+
+@media (max-width: 1200px) {
+  /* line 52, ../scss/style.scss */
+  .n1 {
+    display: inline; } }
 
 /*# sourceMappingURL=style.css.map */
