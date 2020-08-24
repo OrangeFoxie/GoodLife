@@ -24,10 +24,10 @@
         </div>
     </div>
     <!-- nav bar -->
-    <div class="container-fluid bg-success">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success font-weight-bold">
+      <header class="sticky-top">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-success font-weight-bold">
             <div class="container-fluid">
-              <a class="navbar-brand d-lg-none" href="#">GOOD LIFE FTZ</a>
+              <a class="navbar-brand d-xl-none" href="#">GOOD LIFE FTZ</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -37,10 +37,10 @@
                     <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">GIỚI THIỆU</a>
+                    <a class="nav-link active" href="#">GIỚI THIỆU</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                       SẢN PHẨM
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -51,26 +51,25 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">CÔNG NGHỆ SINH HỌC</a>
+                    <a class="nav-link active" href="#">CÔNG NGHỆ SINH HỌC</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">KỸ THUẬT</a>
+                    <a class="nav-link active" href="#">KỸ THUẬT</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">HỎI ĐÁP</a>
+                    <a class="nav-link active" href="#">HỎI ĐÁP</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">HOẠT ĐỘNG CÔNG TY</a>
+                    <a class="nav-link active" href="#">HOẠT ĐỘNG CÔNG TY</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">LIÊN HỆ</a>
+                    <a class="nav-link active" href="#">LIÊN HỆ</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-    </div>
-
+        </header>
     <!-- banner img -->
     <div class="pb-3">
         <img src="./images/banner-phanbonxanh.jpg" class="img-fluid w-100">
@@ -78,25 +77,311 @@
     
     <!-- Company name -->        
     <div class="d-sm-none">
-        <hr>
         <div class="container-md text-center">
-            <h2><a href="tel:123456">HOT LINE: 123456789</a></h2>
+            <h5><a href="tel:123456">HOT LINE: 123456789</a></h5>
+            <hr>
         </div>
-        <hr>
     </div>
 
     <!-- introduce company -->
-    <div class="container-md">
-
+    <div class="container-lg">
+      <div class="row">
         <!-- logo -->
-
-        <!-- clip -->
+        <div class="col-lg-6 col-md-12">
+          <div class="row">
+            <div class="col-12 text-center">
+                <img src="./images/GL-icon.png" alt="" class="img-fluid w-100">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-11 mx-auto text-justify">
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde iusto consequuntur dolorum tenetur assumenda magnam eveniet dolor possimus nulla officiis ipsum ratione veritatis vitae, dicta asperiores dolores error excepturi quos sapiente ducimus mollitia maiores! Dicta recusandae iusto maiores quod corrupti.</p>
+            </div>
+          </div>
+        </div>
+        <!-- clip -->        
+        <div class="col-lg-6 col-md-12 my-auto text-center figure">
+          <iframe class="w-100" height="400px" src="https://www.youtube.com/embed/tnZrlEqDEcA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <figcaption class="figure-caption">Clip giới thiệu về công ty Good Life ftz</figcaption>
+        </div>
+      </div>
     </div>
 
+    <!-- products session -->
+    <div class="container-lg">
+      <hr>
+      <!-- Tittle -->
+      <div class="row">
+        <div class="col text-center pb-2">
+          <h2>SẢN PHẨM NỔI BẬT</h2>
+        </div>
+      </div>
+      <!-- Products -->
+      <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1">
+        <!-- product 1 -->
+        <div class="col pb-lg-0 pb-3">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="./images/pro1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title text-center">Vi sinh GL</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="tel: 123456" class="btn btn-primary w-100">Liên hệ</a>
+            </div>
+          </div>
+        </div>
+          <!--  -->
+          <!-- product 2 -->
+          <div class="col pb-lg-0 pb-3">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="./images/pro2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center">EM Good Life</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="tel: 123456" class="btn btn-primary w-100">Liên hệ</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <!-- product 3 -->
+          <div class="col pb-lg-0 pb-3">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="./images/pro3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center">Phân vi sinh gà GL</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="tel: 123456" class="btn btn-primary w-100">Liên hệ</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->    
+          <!-- product 4 -->
+          <div class="col pb-lg-0 pb-3">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="./images/pro4.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title text-center">Phân hữu cơ vi sinh GL</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="tel: 123456" class="btn btn-primary w-100">Liên hệ</a>
+              </div>
+            </div>
+          </div>
+          <!--  -->         
+      </div>
+      <hr>
+    </div>
+
+    <!--  -->
+
+    <!-- Certificates -->
+    <div class="container-fluid bg-light">
+      <!-- tittle -->
+      <div class="row">
+        <div class="col text-center">
+          <h2>CHỨNG NHẬN CHẤT LƯỢNG</h2>
+        </div>
+      </div>
+
+      <!-- img of certificates -->
+      <div class="container-lg">
+        <div class="row row-cols-1 row-cols-md-3 g-2">
+          <!-- 1 -->
+          <div class="col ml-md-auto">
+            <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c1"><img src="./images/c1.png" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c2"><img src="./images/c2.png" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c3"><img src="./images/c3.png" alt="" class="img-fluid"></a>
+                </div>
+                <!-- <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c4"><img src="./images/c4.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c5"><img src="./images/c5.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c6"><img src="./images/c6.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c7"><img src="./images/c7.jpg" alt="" class="img-fluid"></a>
+                </div> -->
+              </div>
+  
+              <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="col mr-md-auto">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <!-- <div class="carousel-item active">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c1"><img src="./images/c1.png" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c2"><img src="./images/c2.png" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c3"><img src="./images/c3.png" alt="" class="img-fluid"></a>
+                </div> -->
+                <div class="carousel-item active">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c4"><img src="./images/c4.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c5"><img src="./images/c5.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c6"><img src="./images/c6.jpg" alt="" class="img-fluid"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="pb-sm-2" href="" data-toggle="modal" data-target="#c7"><img src="./images/c7.jpg" alt="" class="img-fluid"></a>
+                </div>
+              </div>
+  
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
 
 
 
+          <!-- Modal -->
+    <!-- Certificate 1 -->
+    <div class="modal fade" id="c1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="./images/c1.png" alt="" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Certificate 2 -->
+    <div class="modal fade" id="c2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="./images/c2.png" alt="" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Certificate 3 -->
+    <div class="modal fade" id="c3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="./images/c3.png" alt="" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Certificate 4 -->
+    <div class="modal fade" id="c4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="./images/c4.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Certificate 5 -->
+    <div class="modal fade" id="c5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="./images/c5.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Certificate 6 -->
+    <div class="modal fade" id="c6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="./images/c6.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <!-- Certificate 7 -->
+    <div class="modal fade" id="c7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="./images/c7.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    </div>
+    <hr>
 
+    <!-- contact -->
+    <div class="container-lg">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15674.165327026405!2d106.73015!3d10.84637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3790f29645f657f8!2zQ8O0bmcgdHkgQ-G7lSBQaOG6p24gUGjDom4gQsOzbiBHT09ETElGRQ!5e0!3m2!1svi!2sus!4v1598289736408!5m2!1svi!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="col-md-6 col-sm-12 text-md-left text-sm-center">
+          <div class="row ">
+            <h3 class="">Địa chỉ liên lạc</h3>
+          </div>
+          <div class="row">
+            123
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
