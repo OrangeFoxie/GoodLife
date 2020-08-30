@@ -1,2 +1,16 @@
+*{
+}
 
-
+footer{
+    position: relative;
+    &::before{
+        content: "";
+        height: 27px;
+        width: 100%;
+        background-color: rgba(0, 161, 13, 0.473);
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
