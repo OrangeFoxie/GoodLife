@@ -1,6 +1,23 @@
 *{
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
 }
 
+.link-footer{
+    &:hover::before{
+        content: '';
+        display: inline-block;
+        margin: left;
+        padding-right: 4px;
+        margin-right: 5px;
+        margin-bottom: 0px;
+        position: relative;
+        height: 50%;
+        background: white;
+    }
+}
 footer{
     position: relative;
     &::before{
@@ -12,5 +29,19 @@ footer{
         position: absolute;
         top: 0;
         left: 0;
+    }
+}
+
+.dropdown-menu{
+    li{
+        a{
+            color: white;
+        }
+        &:hover{
+            a{
+                color: black;
+            }
+        }
+
     }
 }
