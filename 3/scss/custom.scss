@@ -1,5 +1,7 @@
 *{
     font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -18,6 +20,7 @@ html{
         background: white;
     }
 }
+
 footer{
     position: relative;
     &::before{
@@ -43,5 +46,14 @@ footer{
             }
         }
 
+    }
+}
+
+.dropdown {
+    &:hover{
+        .dropdown-menu{
+        display: block;
+        margin-top: 0;
+        }
     }
 }

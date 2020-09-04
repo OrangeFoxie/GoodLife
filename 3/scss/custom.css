@@ -1,12 +1,14 @@
 /* line 1, custom.scss */
 * {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0; }
 
-/* line 4, custom.scss */
+/* line 6, custom.scss */
 html {
   scroll-behavior: smooth; }
 
-/* line 9, custom.scss */
+/* line 11, custom.scss */
 .link-footer:hover::before {
   content: '';
   display: inline-block;
@@ -18,10 +20,10 @@ html {
   height: 50%;
   background: white; }
 
-/* line 21, custom.scss */
+/* line 24, custom.scss */
 footer {
   position: relative; }
-  /* line 23, custom.scss */
+  /* line 26, custom.scss */
   footer::before {
     content: "";
     height: 27px;
@@ -32,11 +34,16 @@ footer {
     top: 0;
     left: 0; }
 
-/* line 37, custom.scss */
+/* line 40, custom.scss */
 .dropdown-menu li a {
   color: white; }
-/* line 41, custom.scss */
+/* line 44, custom.scss */
 .dropdown-menu li:hover a {
   color: black; }
+
+/* line 54, custom.scss */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; }
 
 /*# sourceMappingURL=custom.css.map */
